@@ -2,9 +2,9 @@ import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navigation.css";
 
 /**
- * Navigation bar creator. Creates a navigation bar with About Me, Contact, Education, Projects, and Work History.
+ * Navigation bar creator. Creates a navigation bar with About Me, Education, Projects, and Work History.
  *
- * @returns A navigation bar with About Me, Contact, Education, Projects, and Work History.
+ * @returns A navigation bar with About Me, Education, Projects, and Work History.
  */
 function Navigation() {
   return (
