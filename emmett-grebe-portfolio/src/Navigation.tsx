@@ -1,9 +1,9 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 /**
- * Navigation bar creator. Creates a navigation bar with About Me, Education, Projects, and Work History.
+ * Navigation bar creator. Creates a navigation bar with About Me, Contact, Education, Projects, and Work History.
  *
- * @returns A navigation bar with About Me, Education, Projects, and Work History.
+ * @returns A navigation bar with About Me, Contact, Education, Projects, and Work History.
  */
 function Navigation() {
   return (
@@ -23,6 +23,7 @@ function Navigation() {
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#projects">About Me</Nav.Link>
+            <Nav.Link href="#projects">Contact</Nav.Link>
             <Nav.Link href="#contact">Education</Nav.Link>
             <Nav.Link href="#contact">Projects</Nav.Link>
             <Nav.Link href="#contact">Work History</Nav.Link>

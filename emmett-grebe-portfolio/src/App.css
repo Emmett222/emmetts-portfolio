@@ -2,3 +2,7 @@
   background: #70faff;
   background: linear-gradient(149deg,rgba(112, 250, 255, 1) 0%, rgba(108, 235, 140, 1) 50%, rgba(95, 178, 217, 1) 100%);
 }
+
+#pfp {
+  width: 25vw;
+}
