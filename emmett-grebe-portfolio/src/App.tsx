@@ -2,6 +2,7 @@ import About from "./about/About";
 import "./App.css";
 import Home from "./home/Home";
 import Navigation from "./navigation/Navigation";
+import Education from "./education/Education";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Home />
       <hr />
       <About />
+      <hr />
+      <Education />
     </>
   );
 }
