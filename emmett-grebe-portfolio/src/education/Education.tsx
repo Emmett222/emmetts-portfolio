@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 
 function Education() {
   return (
-    <Container id="about">
+    <Container id="education">
       <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center m-5">
         <h1 className="display-1 ">Education</h1>
         <h3 className="display-5 mt-5">
