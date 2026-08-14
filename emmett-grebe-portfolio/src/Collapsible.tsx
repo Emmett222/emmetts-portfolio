@@ -40,7 +40,13 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           }}
         >
           {title}
-          <h2>{isOpen ? "▲" : "▼"}</h2>
+          <h2
+            style={{
+              color: "light-grey",
+            }}
+          >
+            {isOpen ? "▲" : "▼"}
+          </h2>
         </div>
       </button>
 
