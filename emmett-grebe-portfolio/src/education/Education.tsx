@@ -1,10 +1,11 @@
 import { Container } from "react-bootstrap";
+import "./Education.css";
 
 function Education() {
   return (
     <Container id="education">
       <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center m-5">
-        <h1 className="display-1 ">Education</h1>
+        <h1 className="display-1 mt-5">Education</h1>
         <h3 className="display-5 mt-5">
           Computer Science BS with Honors minor at James Madison University
           (August 2023 - May 2027)
@@ -25,7 +26,7 @@ function Education() {
           53.
         </h4>
         <h3 className="display-5 mt-5">AWS Solutions Architect Associate</h3>
-        <h4 className="display-6">Currently preparing for the exam.</h4>
+        <h4 className="display-6 mb-5">Currently preparing for the exam.</h4>
       </div>
     </Container>
   );
