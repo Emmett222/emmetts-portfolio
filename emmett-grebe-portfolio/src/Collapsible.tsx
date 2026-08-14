@@ -17,7 +17,6 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
   return (
     <div
       style={{
-        borderRadius: "4px",
         marginBottom: "10px",
         minWidth: "100%",
       }}
@@ -34,7 +33,15 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           cursor: "pointer",
         }}
       >
-        {title} {isOpen ? "▲" : "▼"}
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "space-between",
+          }}
+        >
+          {title}
+          <h2>{isOpen ? "▲" : "▼"}</h2>
+        </div>
       </button>
 
       <div
