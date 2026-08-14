@@ -19,7 +19,6 @@ function Navigation() {
           <Nav className="ms-auto">
             <Nav.Link href="#home">Home</Nav.Link>
             <Nav.Link href="#about">About Me</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
             <Nav.Link href="#education">Education</Nav.Link>
             <Nav.Link href="#projects">Projects</Nav.Link>
             <Nav.Link href="#workhistory">Work History</Nav.Link>
