@@ -5,7 +5,7 @@ function Projects() {
   return (
     <Container id="projects">
       <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center m-5">
-        <h1 className="display-1 ">Projects</h1>
+        <h1 className="display-1 mb-5">Projects</h1>
         <Collapsible
           title={"Alloy Audio Player (June 2026 - Now)"}
           children={
