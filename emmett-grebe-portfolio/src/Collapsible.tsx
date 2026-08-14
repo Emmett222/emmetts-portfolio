@@ -19,10 +19,11 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
       style={{
         borderRadius: "4px",
         marginBottom: "10px",
+        minWidth: "100%",
       }}
     >
       <button
-        className="display-5"
+        className="display-6"
         onClick={() => setIsOpen(!isOpen)}
         style={{
           width: "100%",
@@ -33,7 +34,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           cursor: "pointer",
         }}
       >
-        {title} {isOpen ? "^" : "..."}
+        {title} {isOpen ? "▲" : "▼"}
       </button>
 
       <div
