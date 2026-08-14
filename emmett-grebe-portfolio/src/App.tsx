@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./home/Home";
 import Navigation from "./navigation/Navigation";
 import Education from "./education/Education";
+import Projects from "./projects/Projects";
 
 function App() {
   return (
@@ -14,6 +15,8 @@ function App() {
       <About />
       <hr />
       <Education />
+      <hr />
+      <Projects />
     </>
   );
 }
