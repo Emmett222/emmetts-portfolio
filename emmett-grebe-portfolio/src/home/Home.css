@@ -1,5 +1,10 @@
 #contactIcon {
     width: 100px;
+    transition: width 0.3s ease-in-out;
+}
+
+#contactIcon:hover {
+  width: 120px;
 }
 
 .hover-pointer {
