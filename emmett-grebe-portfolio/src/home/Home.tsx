@@ -1,5 +1,5 @@
 import "./Home.css";
-import { Button, Container, OverlayTrigger, Tooltip } from "react-bootstrap";
+import { Container, OverlayTrigger, Tooltip } from "react-bootstrap";
 import profilePic from "../assets/profilePic.jpg";
 import emailIcon from "../assets/contact_email.png";
 import gitHubIcon from "../assets/contact_github.png";
