@@ -1,5 +1,5 @@
 import { Container } from "react-bootstrap";
-import Collapsible from "../Collapsible";
+import Collapsible from "../components/collapsible/Collapsible";
 
 function WorkHistory() {
   return (

@@ -1,6 +1,6 @@
 import "./Projects.css";
 import { Container } from "react-bootstrap";
-import Collapsible from "../Collapsible";
+import Collapsible from "../components/collapsible/Collapsible";
 import Alloy from "../assets/Alloy.gif";
 
 function Projects() {

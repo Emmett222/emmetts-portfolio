@@ -1,3 +1,4 @@
+import "./Collapsible.css";
 import { useState } from "react";
 
 interface CollapsibleProps {
@@ -22,6 +23,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
       }}
     >
       <button
+        id="card"
         className="display-6"
         onClick={() => setIsOpen(!isOpen)}
         style={{
