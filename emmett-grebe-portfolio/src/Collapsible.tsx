@@ -42,7 +42,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           {title}
           <h2
             style={{
-              color: "light-grey",
+              color: "grey",
             }}
           >
             {isOpen ? "▲" : "▼"}
