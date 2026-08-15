@@ -15,7 +15,7 @@ function Projects() {
               <div className="d-flex flex-row justify-content-center align-items-center text-center">
                 <img
                   src={Alloy}
-                  className="rounded shadow img-fluid m-4"
+                  className="rounded shadow img-fluid"
                   id="AlloyGif"
                 />
                 <div>

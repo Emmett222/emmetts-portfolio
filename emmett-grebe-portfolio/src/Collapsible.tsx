@@ -52,7 +52,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
 
       <div
         style={{
-          maxHeight: isOpen ? "500px" : "0px",
+          maxHeight: isOpen ? "750px" : "0px",
           overflow: "hidden",
           transition: "max-height 0.3s ease-in-out",
           padding: isOpen ? "10px" : "0 10px",
