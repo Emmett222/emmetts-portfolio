@@ -15,7 +15,7 @@ function About() {
           <em>Java, Python, Kotlin, HTML, CSS, JavaScript, TypeScript</em>
         </h3>
         <h3 className="display-6 ">
-          Frameworks: <em>React, Sveltekit, Django</em>{" "}
+          Frameworks: <em>React, Sveltekit, Django, Bootstrap</em>{" "}
         </h3>
         <h3 className="display-6 ">
           Tools/Cloud: <em>AWS, Git, VSCode, Android Studio</em>
