@@ -1,5 +1,7 @@
+import "./Projects.css";
 import { Container } from "react-bootstrap";
 import Collapsible from "../Collapsible";
+import Alloy from "../assets/Alloy.gif";
 
 function Projects() {
   return (
@@ -10,27 +12,55 @@ function Projects() {
           title={"Alloy Audio Player (June 2026 - Now)"}
           children={
             <>
-              <p className="lead">
-                Work in progress. An audio player with personality. Extremely
-                customizable with many settings to choose from. Customize
-                colors, animations, filename truncating, sorting, visualizers,
-                and more.
-              </p>
-              <p className="lead">
-                <a href="https://github.com/Emmett222/Alloy-Audio-Player">
-                  Check it out here
-                </a>
-              </p>
+              <div className="d-flex flex-row justify-content-center align-items-center text-center">
+                <img
+                  src={Alloy}
+                  className="rounded shadow img-fluid m-4"
+                  id="AlloyGif"
+                />
+                <div>
+                  <p className="lead">
+                    Work in progress. An audio player with personality.
+                    Extremely customizable with many settings to choose from.
+                    Customize colors, animations, filename truncating, sorting,
+                    visualizers, and more.
+                  </p>
+                  <p className="lead">
+                    Developed for Android using Kotlin and Media3. Engineered a
+                    robust background service architecture using
+                    MediaSessionService and ExoPlayer to ensure seamless
+                    playback across system states.
+                  </p>
+                  <p className="lead">
+                    Used AI tools to boost development. This usage significantly
+                    reduced debugging overhead and helped safely navigate
+                    Media3's background lifecycle constraints. After tutorials
+                    couldn't help me develop Alloy anymore, AI taught me
+                    intermediate topics of Android development.
+                  </p>
+                  <p className="lead">
+                    <a href="https://github.com/Emmett222/Alloy-Audio-Player">
+                      Check it out here
+                    </a>
+                  </p>
+                </div>
+              </div>
             </>
           }
         ></Collapsible>
         <Collapsible
           title={"Emmett Grebe's Portfolio (August 2026 - Now)"}
           children={
-            <p className="lead">
-              Made with React, TypeScript, and Bootstrap. Shows all of my
-              achievements and will be updated as time goes on.
-            </p>
+            <>
+              <p className="lead">
+                Made with React, TypeScript, and Bootstrap. Shows all of my
+                achievements and will be updated as time goes on.
+              </p>
+              <p className="lead">
+                Used AI tools to teach me how to use React. Once I learned
+                enough, this website was completely handmade.
+              </p>
+            </>
           }
         ></Collapsible>
         <Collapsible

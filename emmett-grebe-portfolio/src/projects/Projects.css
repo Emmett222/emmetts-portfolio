@@ -1,0 +1,8 @@
+#AlloyGif {
+    width: 50%;
+    transition: width 0.3s ease-in-out;
+}
+
+#AlloyGif:hover {
+    width: 75%;
+}
