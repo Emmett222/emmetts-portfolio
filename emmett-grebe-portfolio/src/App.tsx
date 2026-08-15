@@ -4,6 +4,7 @@ import Home from "./home/Home";
 import Navigation from "./navigation/Navigation";
 import Education from "./education/Education";
 import Projects from "./projects/Projects";
+import WorkHistory from "./workhistory/WorkHistory";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
       <Education />
       <hr />
       <Projects />
+      <hr />
+      <WorkHistory />
     </>
   );
 }
