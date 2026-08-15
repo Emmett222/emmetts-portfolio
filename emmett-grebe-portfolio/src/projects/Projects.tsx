@@ -28,8 +28,8 @@ function Projects() {
           title={"Emmett Grebe's Portfolio (August 2026 - Now)"}
           children={
             <p className="lead">
-              Made with React and TypeScript. Shows all of my achievements and
-              will be updated as time goes on.
+              Made with React, TypeScript, and Bootstrap. Shows all of my
+              achievements and will be updated as time goes on.
             </p>
           }
         ></Collapsible>
