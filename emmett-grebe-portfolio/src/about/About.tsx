@@ -3,7 +3,7 @@ import { Container } from "react-bootstrap";
 function About() {
   return (
     <Container id="about" className="sections">
-      <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center">
+      <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="display-1 ">About Me</h1>
         <h2 className="display-6 mt-5">
           Hey, I'm Emmett! Problems are a puzzle to be broken down into pieces.

@@ -4,7 +4,7 @@ import Collapsible from "../components/collapsible/Collapsible";
 function WorkHistory() {
   return (
     <Container id="workhistory" className="sections">
-      <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center">
+      <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="display-1 mb-5">Work History</h1>
         <Collapsible
           title={"Sentara RMH IT Shadow Internship (June 2025 - August 2025)"}

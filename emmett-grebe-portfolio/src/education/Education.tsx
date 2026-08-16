@@ -4,7 +4,7 @@ import Collapsible from "../components/collapsible/Collapsible";
 function Education() {
   return (
     <Container id="education" className="sections">
-      <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center">
+      <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center">
         <h1 className="display-1 mb-5">Education</h1>
         <Collapsible
           title={
