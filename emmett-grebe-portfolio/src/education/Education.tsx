@@ -16,10 +16,25 @@ function Education() {
                 I am currently pursuing a Bachelor of Science in Computer
                 Science with an Honors minor at James Madison University. My
                 academic career is rooted in applied software development.
-                Worked solo to working in Agile teams to build robust
-                applications. I have gained a strong command of object-oriented
-                design and the complete software development life cycle.
               </p>
+              <ul className="list-group">
+                <li className="list-group-item">
+                  Engineered full-stack academic projects and standalone
+                  applications using Java, Python, and modern web frameworks.
+                </li>
+                <li className="list-group-item">
+                  Worked solo to working in Agile teams to build robust
+                  applications.
+                </li>
+                <li className="list-group-item">
+                  Gained a strong command of object-oriented design and the
+                  complete software development life cycle.
+                </li>
+                <li className="list-group-item">
+                  Designed and implemented relational databases and data
+                  structures for collaborative software.
+                </li>
+              </ul>
             </>
           }
         ></Collapsible>

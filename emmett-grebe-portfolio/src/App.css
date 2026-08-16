@@ -23,6 +23,16 @@ p {
   text-align: left;
 }
 
+ul {
+  text-align: left;
+  background: rgb(248 249 250 / 15%);
+}
+li {
+  color: white !important;
+  background: rgb(248 249 250 / 1%) !important;
+  border-color: gray !important;
+}
+
 
 
 @media (max-width: 768px) {

@@ -10,12 +10,10 @@ function WorkHistory() {
           title={"Sentara RMH IT Shadow Internship (June 2025 - August 2025)"}
           children={
             <p className="lead">
-              As a certified lifeguard at Massanutten I safeguarded thousands of
-              visitors at Massanutten Waterpark, Woodstone Recreation Center,
-              Massanutten Fitness and Recreation Center, and Mt. Peak Pool. As a
-              resort these locations were busy. Despite the busyness, I managed
-              critical situations with calm efficiency according to strict
-              standards.
+              Gained exposure to healthcare informatics by observing IT
+              professionals manage, update, and troubleshoot the Epic EHR system
+              in a clinical environment. Observed IT specialists collaborate to
+              make critical decisions on software changes.
             </p>
           }
         ></Collapsible>
