@@ -15,7 +15,7 @@ function Education() {
               <p className="lead">
                 I am currently pursuing a Bachelor of Science in Computer
                 Science with an Honors minor at James Madison University. My
-                Academic career is rooted in applied software development.
+                academic career is rooted in applied software development.
                 Worked solo to working in Agile teams to build robust
                 applications. I have gained a strong command of object-oriented
                 design and the complete software development life cycle.

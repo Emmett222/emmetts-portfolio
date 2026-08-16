@@ -86,9 +86,7 @@ function Projects() {
           }
         ></Collapsible>
         <Collapsible
-          title={
-            "BarWare Restaurant Software (September 2025 - December 2025))"
-          }
+          title={"BarWare Restaurant Software (September 2025 - December 2025)"}
           children={
             <>
               <p className="lead">
