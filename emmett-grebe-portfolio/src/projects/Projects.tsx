@@ -136,18 +136,40 @@ function Projects() {
           children={
             <>
               <p className="lead">
-                Developed as part of a five person Agile team, BarWare is a
-                restaurant management solution designed to streamline dining.
-                Through the development, I focused on collaborative engineering,
-                participating in sprint cycles, and implementing complex
-                business requirements into features. This project solidified my
-                ability to work in cross-functional teams, manage version
-                control among multiple contributors, and work on a strict
-                timeline.
+                BarWare is a restaurant management solution designed to
+                streamline dining. Through the development, I focused on
+                collaborative engineering, participating in sprint cycles, and
+                implementing complex business requirements into features. This
+                project solidified my ability to work in cross-functional teams,
+                manage version control among multiple contributors, and work on
+                a strict timeline.
+              </p>
+              <p className="lead">
+                Worked in a highly structured, mock Agile development
+                environment that copied tech industry practices. Simulating a
+                professional software studio, I collaborated within a five
+                person Scrum team to deliver a full-stack application. We
+                managed the complete software development life cycle from
+                gathering initial requirements and planning sprints to
+                conducting code reviews and managing team-wide version control.
+                This hands-on experience bridged the gap between theoretical
+                computer science and practical engineering, demonstrating my
+                ability to build robust, object-oriented systems while
+                effectively navigating team dynamics and project deadlines.
               </p>
               <p className="lead">
                 <a href="https://github.com/bernstdh/f25team3c">
                   Check it out here
+                </a>
+              </p>
+              <p className="lead">
+                <a href="https://oldnotebooks.org/bernstdh/web/CS345/project/ProductBacklog_AdditionsAfterSprint1.pdf">
+                  See after sprint 2 product backlog
+                </a>
+              </p>
+              <p className="lead">
+                <a href="https://oldnotebooks.org/bernstdh/web/CS345/project/ProductBacklog_AdditionsAfterSprint2.pdf">
+                  See after sprint 3 product backlog
                 </a>
               </p>
             </>
