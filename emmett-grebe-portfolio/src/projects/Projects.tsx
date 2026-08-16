@@ -5,7 +5,7 @@ import Alloy from "../assets/Alloy.gif";
 
 function Projects() {
   return (
-    <Container id="projects">
+    <Container id="projects" className="sections">
       <div className="vh-100 d-flex flex-column justify-content-center align-items-center text-center m-5">
         <h1 className="display-1 mb-5">Projects</h1>
         <Collapsible

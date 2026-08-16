@@ -13,7 +13,7 @@ function Home() {
   );
 
   return (
-    <Container id="home">
+    <Container id="home" className="sections">
       <div
         className="vh-100 d-flex flex-row justify-content-center align-items-center text-center"
         id="all"

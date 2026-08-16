@@ -1,5 +1,17 @@
 #nav {
-    background: rgb(248 249 250 / 50%);
-
+    background: rgba(29, 247, 247, 0.5);
     backdrop-filter: blur(8px);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+
+/* Adding #nav at the front makes this rule "stronger" than Bootstrap's defaults */
+#nav .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.8); 
+    
+    color: black !important; 
+    
+    border-radius: 8px; 
+
+    transition: background-color 0.3s ease; 
 }
