@@ -18,9 +18,17 @@
     width: 50vw;
 }
 
+#pwfImage {
+    width: 80%;
+}
+
 
 @media (max-width: 768px) {
   #AlloyContainer {
+    flex-direction: column-reverse !important;
+  }
+
+  #FolderSorterContainer {
     flex-direction: column-reverse !important;
   }
 }

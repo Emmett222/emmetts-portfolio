@@ -4,6 +4,7 @@ import Collapsible from "../components/collapsible/Collapsible";
 import Alloy from "../assets/Alloy.gif";
 import FolderSorter1 from "../assets/folder_sorter.png";
 import FolderSorter2 from "../assets/folder_sorter2.png";
+import pwf from "../assets/pwf.png";
 
 function Projects() {
   return (
@@ -81,10 +82,13 @@ function Projects() {
           title={"Folder Sorter (February 2026 - April 2026)"}
           children={
             <>
-              <div className="d-flex flex-row justify-content-center align-items-center text-center">
+              <div
+                className="d-flex flex-row justify-content-center align-items-center text-center"
+                id="FolderSorterContainer"
+              >
                 <div
                   className="d-flex flex-column justify-content-center align-items-center text-center"
-                  id="FolderSorter"
+                  id="FolderSorterImages"
                 >
                   <img
                     src={FolderSorter1}
@@ -165,6 +169,11 @@ function Projects() {
                   Check it out here
                 </a>
               </p>
+              <img
+                src={pwf}
+                id="pwfImage"
+                className="rounded shadow img-fluid m-3"
+              />
             </>
           }
         ></Collapsible>
