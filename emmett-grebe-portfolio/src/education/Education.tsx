@@ -8,7 +8,7 @@ function Education() {
         <h1 className="display-1 mb-5">Education</h1>
         <Collapsible
           title={
-            "Computer Science BS with Honors minor at James Madison University(August 2023 - May 2027)"
+            "Computer Science BS with Honors minor at James Madison University (August 2023 - May 2027)"
           }
           children={
             <>
