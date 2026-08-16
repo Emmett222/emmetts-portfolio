@@ -2,6 +2,8 @@ import "./Projects.css";
 import { Container } from "react-bootstrap";
 import Collapsible from "../components/collapsible/Collapsible";
 import Alloy from "../assets/Alloy.gif";
+import FolderSorter1 from "../assets/folder_sorter.png";
+import FolderSorter2 from "../assets/folder_sorter2.png";
 
 function Projects() {
   return (
@@ -23,16 +25,20 @@ function Projects() {
                 />
                 <div>
                   <p className="lead">
-                    Work in progress. An audio player with personality.
-                    Extremely customizable with many settings to choose from.
-                    Customize colors, animations, filename truncating, sorting,
-                    visualizers, and more.
+                    Work in progress. An audio player with personality
+                    engineered to deliver a fluid, uninterrupted listening
+                    experience. The interface is designed around the user,
+                    featuring many settings to choose from. Customize colors,
+                    animations, filename truncating, sorting, visualizers, and
+                    more.
                   </p>
                   <p className="lead">
                     Developed for Android using Kotlin and Media3. Engineered a
                     robust background service architecture using
                     MediaSessionService and ExoPlayer to ensure seamless
-                    playback across system states.
+                    playback across system states. By strictly separating the
+                    underlying data logic from the user interface, the codebase
+                    remains clean, maintainable, and ready for future expansion.
                   </p>
                   <p className="lead">
                     Used AI tools to boost development. This usage significantly
@@ -75,21 +81,49 @@ function Projects() {
           title={"Folder Sorter (February 2026 - April 2026)"}
           children={
             <>
-              <p className="lead">
-                Folder Sorter is a Java-based program that sorts a folder into
-                subfolders based on filetype and filename. Can sort a specific
-                folder, or sort the folder that the program is currently in.
-              </p>
-              <p className="lead">
-                Sorting behavior can be configured in
-                Documents/Folder-Sorter/Config.txt.
-              </p>
-              <p className="lead">Used Git for version control.</p>
-              <p className="lead">
-                <a href="https://github.com/Emmett222/Folder-Sorter">
-                  Check it out here
-                </a>
-              </p>
+              <div className="d-flex flex-row justify-content-center align-items-center text-center">
+                <div
+                  className="d-flex flex-column justify-content-center align-items-center text-center"
+                  id="FolderSorter"
+                >
+                  <img
+                    src={FolderSorter1}
+                    className="rounded shadow img-fluid m-3"
+                  />
+                  <img
+                    src={FolderSorter2}
+                    className="rounded shadow img-fluid m-3"
+                  />
+                </div>
+                <div className="m-3">
+                  <p className="lead">
+                    Folder Sorter is a Java-based program that sorts a folder
+                    into subfolders based on filetype and filename. Can sort a
+                    specific folder, or sort the folder that the program is
+                    currently in.
+                  </p>
+                  <p className="lead">
+                    Can sort files based on filename from a threshold set by the
+                    user. The threshold is how alike the names have to be for
+                    them to be put together. For example, a threshold of 5 will
+                    make 'image.png' and 'image2.png' be put together in an
+                    'image' subfolder, but 'imag.png' will not.
+                  </p>
+                  <p className="lead">
+                    Undo button can undo the last sort the program has done.
+                  </p>
+                  <p className="lead">
+                    Sorting behavior can be configured in
+                    Documents/Folder-Sorter/Config.txt.
+                  </p>
+                  <p className="lead">Used Git for version control.</p>
+                  <p className="lead">
+                    <a href="https://github.com/Emmett222/Folder-Sorter">
+                      Check it out here
+                    </a>
+                  </p>
+                </div>
+              </div>
             </>
           }
         ></Collapsible>
