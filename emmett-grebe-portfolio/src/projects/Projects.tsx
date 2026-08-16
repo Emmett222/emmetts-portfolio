@@ -12,7 +12,10 @@ function Projects() {
           title={"Alloy Audio Player (June 2026 - Now)"}
           children={
             <>
-              <div className="d-flex flex-row justify-content-center align-items-center text-center">
+              <div
+                className="d-flex flex-row justify-content-center align-items-center text-center"
+                id="AlloyContainer"
+              >
                 <img
                   src={Alloy}
                   className="rounded shadow img-fluid"

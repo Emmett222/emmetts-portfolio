@@ -1,5 +1,5 @@
 #contactIcon {
-    width: 100px;
+    width: 5vw;
     transition: width 0.3s ease-in-out;
     filter: brightness(0) invert(1);
 }
@@ -10,4 +10,16 @@
 
 .hover-pointer {
   cursor: pointer;
+}
+
+
+@media (max-width: 768px) {
+  #all {
+    flex-direction: column !important;
+  }
+
+  #contactIcon {
+    margin: 1% !important;
+    width: 50px;
+  }
 }
