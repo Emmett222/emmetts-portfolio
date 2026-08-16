@@ -60,6 +60,11 @@ function Projects() {
                 Used AI tools to teach me how to use React. Once I learned
                 enough, this website was completely handmade.
               </p>
+              <p className="lead">
+                <a href="https://github.com/Emmett222/emmetts-portfolio">
+                  Check it out here
+                </a>
+              </p>
             </>
           }
         ></Collapsible>
