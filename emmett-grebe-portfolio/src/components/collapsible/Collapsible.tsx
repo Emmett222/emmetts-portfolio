@@ -30,7 +30,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           width: "100%",
           padding: "10px",
           textAlign: "left",
-          background: "rgb(248 249 250 / 50%)",
+          background: "rgb(248 249 250 / 25%)",
           border: "none",
           cursor: "pointer",
         }}
@@ -39,6 +39,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           style={{
             display: "flex",
             justifyContent: "space-between",
+            color: "white",
           }}
         >
           {title}
@@ -58,7 +59,7 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           overflow: "hidden",
           transition: "max-height 0.3s ease-in-out",
           padding: isOpen ? "10px" : "0 10px",
-          background: "rgb(248 249 250 / 25%)",
+          background: "rgb(248 249 250 / 15%)",
         }}
       >
         {children}
