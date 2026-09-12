@@ -23,27 +23,38 @@ function About() {
           </tr>
           <tr>
             <td>Python</td>
-            <td>Sveltekit</td>
+            <td>Svelte</td>
             <td>Git</td>
           </tr>
           <tr>
             <td>Kotlin</td>
             <td>Django</td>
-            <td>VSCode</td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>Bootstrap</td>
-            <td>Android Studio</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
+            <td>Linux</td>
           </tr>
           <tr>
             <td>JavaScript</td>
+            <td>Bootstrap</td>
+            <td>npm</td>
           </tr>
           <tr>
             <td>TypeScript</td>
+            <td>Android Jetpack Media3</td>
+            <td>Vite</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>Java Swing</td>
+            <td>Junit</td>
+          </tr>
+          <tr>
+            <td>CSS</td>
+            <td>Android Room</td>
+            <td>Relational Databases</td>
+          </tr>
+          <tr>
+            <td>SQL</td>
+            <td></td>
+            <td></td>
           </tr>
         </table>
       </div>
