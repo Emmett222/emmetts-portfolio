@@ -30,7 +30,6 @@ export default function Collapsible({ title, children }: CollapsibleProps) {
           width: "100%",
           padding: "10px",
           textAlign: "left",
-          background: "rgb(248 249 250 / 25%)",
           border: "none",
           cursor: "pointer",
         }}
