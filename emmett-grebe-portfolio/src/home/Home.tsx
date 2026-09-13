@@ -25,7 +25,7 @@ function Home() {
           <img
             src={profilePic}
             alt="Emmett's Picture"
-            className="rounded shadow img-fluid"
+            className="rounded shadow img-fluid ml-5"
             id="pfp"
           />
         </div>
