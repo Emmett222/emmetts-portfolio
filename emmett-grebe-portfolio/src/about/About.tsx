@@ -10,7 +10,7 @@ function About() {
           Every little bit counts so it is important to think through piece by
           piece.
         </h2>
-        <table className="table mt-5">
+        <table className="table mt-5 ml-5 mr-5">
           <tr>
             <th scope="col">Frontend</th>
             <th scope="col">Backend & Cloud</th>
