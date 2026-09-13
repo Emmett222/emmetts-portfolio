@@ -1,0 +1,13 @@
+.table {
+  background: linear-gradient(45deg,rgba(0, 206, 69, 0.45) 0%, rgba(0, 142, 167, 0.45) 50%, rgba(0, 172, 202, 0.45) 100%) !important;
+  --bs-table-bg: transparent; 
+  border-radius: 8px;
+  overflow: hidden;
+  color: white !important;
+}
+
+.table th,
+.table td,
+.table tr {
+  color: white !important;
+}
