@@ -1,12 +1,5 @@
 import { Navbar, Container, Nav } from "react-bootstrap";
 import "./Navigation.css";
-import { useEffect, useState } from "react";
-
-const homeStr = "home";
-const aboutStr = "about";
-const educationStr = "education";
-const projectsStr = "projects";
-const workStr = "workhistory";
 
 /**
  * Navigation bar creator. Creates a navigation bar with About Me, Education, Projects, and Work History.
@@ -17,26 +10,26 @@ function Navigation() {
   return (
     <Navbar expand="md" sticky="top" id="nav">
       <Container>
-        <Navbar.Brand href="#home">Emmett Grebe's Portfolio</Navbar.Brand>
+        <Navbar.Brand href="#home" className="button">Emmett Grebe's Portfolio</Navbar.Brand>
         {/* The hamburger button for mobile */}
         <Navbar.Toggle aria-controls="portfolio-navbar" />
 
         {/* Everything in here hides on mobile */}
         <Navbar.Collapse id="portfolio-navbar">
           <Nav className="ms-auto">
-            <Nav.Link href="#home">
+            <Nav.Link href="#home" className="button">
               Home
             </Nav.Link>
-            <Nav.Link href="#about">
+            <Nav.Link href="#about" className="button">
               About Me
             </Nav.Link>
-            <Nav.Link href="#education">
+            <Nav.Link href="#education" className="button">
               Education
             </Nav.Link>
-            <Nav.Link href="#projects">
+            <Nav.Link href="#projects" className="button">
               Projects
             </Nav.Link>
-            <Nav.Link href="#workhistory">
+            <Nav.Link href="#workhistory" className="button">
               Work History
             </Nav.Link>
           </Nav>
