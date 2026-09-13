@@ -11,52 +11,63 @@ function About() {
           piece.
         </h2>
         <table className="table mt-5">
-          <tr>
-            <th scope="col">Languages</th>
-            <th scope="col">Frameworks</th>
-            <th scope="col">Tools/Cloud</th>
-          </tr>
-          <tr>
-            <td>Java</td>
-            <td>React</td>
-            <td>AWS</td>
-          </tr>
-          <tr>
-            <td>Python</td>
-            <td>Svelte</td>
-            <td>Git</td>
-          </tr>
-          <tr>
-            <td>Kotlin</td>
-            <td>Django</td>
-            <td>Linux</td>
-          </tr>
-          <tr>
-            <td>JavaScript</td>
-            <td>Bootstrap</td>
-            <td>npm</td>
-          </tr>
-          <tr>
-            <td>TypeScript</td>
-            <td>Android Jetpack Media3</td>
-            <td>Vite</td>
-          </tr>
-          <tr>
-            <td>HTML</td>
-            <td>Java Swing</td>
-            <td>Junit</td>
-          </tr>
-          <tr>
-            <td>CSS</td>
-            <td>Android Room</td>
-            <td>Relational Databases</td>
-          </tr>
-          <tr>
-            <td>SQL</td>
-            <td></td>
-            <td></td>
-          </tr>
-        </table>
+  <tr>
+    <th scope="col">Frontend</th>
+    <th scope="col">Backend & Cloud</th>
+    <th scope="col">Mobile & Desktop</th>
+    <th scope="col">Database & Architecture</th>
+    <th scope="col">Developer Tooling & Systems</th>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>Java</td>
+    <td>Kotlin</td>
+    <td>SQL</td>
+    <td>Git</td>
+  </tr>
+  <tr>
+    <td>TypeScript</td>
+    <td>Python</td>
+    <td>Android Jetpack Media3</td>
+    <td>Android Room</td>
+    <td>Linux</td>
+  </tr>
+  <tr>
+    <td>React</td>
+    <td>Django</td>
+    <td>Java Swing</td>
+    <td>Relational Databases</td>
+    <td>npm</td>
+  </tr>
+  <tr>
+    <td>Svelte</td>
+    <td>AWS</td>
+    <td></td>
+    <td></td>
+    <td>Vite</td>
+  </tr>
+  <tr>
+    <td>HTML</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td>Junit</td>
+  </tr>
+  <tr>
+    <td>CSS</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Bootstrap</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
       </div>
     </Container>
   );
