@@ -5,18 +5,6 @@
     background: linear-gradient(45deg,rgba(4, 216, 75, 0.75) 0%, rgba(0, 156, 184, 0.75) 50%, rgba(0, 199, 235, 0.75) 100%);
 }
 
-
-/* Adding #nav at the front makes this rule "stronger" than Bootstrap's defaults */
-#nav .nav-link.active {
-    background-color: rgba(255, 255, 255, 0.8); 
-    
-    color: black !important; 
-    
-    border-radius: 8px; 
-
-    transition: background-color 0.3s ease; 
-}
-
 .button{
     color: white;
 }
