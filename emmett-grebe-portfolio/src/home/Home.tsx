@@ -39,7 +39,7 @@ function Home() {
             <OverlayTrigger
               placement="top"
               trigger="click"
-              overlay={renderTooltip} // Connects the sensor to your popup
+              overlay={renderTooltip} // Connects the sensor to popup
               rootClose={true} // Automatically closes it if the user clicks anywhere else
             >
               <a onClick={emailCopy} className="hover-pointer">

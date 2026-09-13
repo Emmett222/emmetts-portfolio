@@ -2,6 +2,7 @@
     background: rgba(29, 247, 247, 0.5);
     backdrop-filter: blur(8px);
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background: linear-gradient(45deg,rgba(0, 217, 255, 0.75) 0%, rgba(4, 216, 75, 0.75) 50%, rgba(0, 172, 202, 0.75) 100%);
 }
 
 
