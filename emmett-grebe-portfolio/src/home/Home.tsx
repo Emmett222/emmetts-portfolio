@@ -28,7 +28,6 @@ function Home() {
             className="rounded shadow img-fluid"
             id="pfp"
           />
-          <p>This is a placeholder image.</p>
         </div>
         <div className="d-flex flex-column justify-content-center align-items-center text-center m-5">
           <h1 className="display-1 ">Emmett Grebe</h1>
