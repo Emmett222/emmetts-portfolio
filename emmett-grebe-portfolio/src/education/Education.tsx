@@ -40,7 +40,7 @@ function Education() {
         ></Collapsible>
 
         <Collapsible
-          title={"AWS Cloud Practitioner"}
+          title={"AWS Cloud Practitioner (Completed August 2026)"}
           children={
             <>
               <p className="lead">
@@ -54,10 +54,16 @@ function Education() {
         ></Collapsible>
 
         <Collapsible
-          title={"AWS Solutions Architect Associate"}
+          title={"AWS Solutions Architect Associate (Completed September 2026)"}
           children={
             <>
-              <p className="lead">Currently preparing for the exam.</p>
+              <p className="lead">
+                This certification validates my ability to design secure,
+                resilient, high-performing, and cost-optimized distributed
+                systems using the AWS Well-Architected Framework. It
+                demonstrates proficiency in deploying scalable cloud
+                infrastructure and managing complex architectural trade-offs.
+              </p>
             </>
           }
         ></Collapsible>
