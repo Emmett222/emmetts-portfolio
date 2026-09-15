@@ -12,6 +12,51 @@ function Projects() {
       <div className="min-vh-100 d-flex flex-column justify-content-center align-items-center text-center m-5">
         <h1 className="display-1 mb-5">Projects</h1>
         <Collapsible
+          title={"Easy Maintenance Log (September 2026 - Now)"}
+          children={
+            <>
+              <div
+                className="d-flex flex-row justify-content-center align-items-center text-center"
+                id="EasyMaintenanceContainer"
+              >
+                <div>
+                  <p className="lead">
+                    Work in progress. A full-stack web application designed to
+                    help vehicle owners effortlessly track service histories and
+                    stay ahead of upcoming maintenance. The interface will
+                    provide a clean, responsive dashboard where users can manage
+                    multiple vehicles, log past services, and configure
+                    automated future reminders.
+                  </p>
+                  <p className="lead">
+                    Engineered a decoupled, serverless cloud architecture using
+                    AWS. The backend is powered by a Python Django REST
+                    Framework API executing via AWS Lambda and Amazon API
+                    Gateway, which communicates with a managed MySQL database
+                    hosted on Amazon RDS. To handle reminders, an event-driven
+                    notification engine utilizing Amazon EventBridge for precise
+                    scheduling and Amazon SNS for automated alert delivery
+                    through email.
+                  </p>
+                  <p className="lead">
+                    Developed the frontend using React and TypeScript to be
+                    hosted on AWS Amplify for continuous integration and
+                    deployment. The application features a robust authentication
+                    flow utilizing JSON Web Tokens (JWT) and protected React
+                    Router pathways, ensuring user data and service records
+                    remain strictly isolated and secure.
+                  </p>
+                  <p className="lead">
+                    <a href="https://github.com/Emmett222/Easy-Maintenance-Log">
+                      Check it out here
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </>
+          }
+        ></Collapsible>
+        <Collapsible
           title={"Alloy Audio Player (June 2026 - Now)"}
           children={
             <>
